@@ -1,0 +1,6 @@
+arr=input("eneter the array:")
+def find_missing(arr):
+    n=len(arr)+1
+    total_sum=n*(n+1)//2
+    return total_sum-sum(arr)
+print(find_missing([1,2,3,5]))
